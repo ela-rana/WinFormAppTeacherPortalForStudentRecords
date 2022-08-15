@@ -21,6 +21,9 @@ namespace WinFormAppTeacherPortalForStudentRecords
         {
             if (ValidLogin())
             {
+                TeacherPortal teacherPortal = new TeacherPortal();
+                teacherPortal.Show();
+
 
             }
             else
