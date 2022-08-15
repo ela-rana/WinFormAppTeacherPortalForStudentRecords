@@ -23,7 +23,7 @@ namespace WinFormAppTeacherPortalForStudentRecords
             {
                 TeacherPortal teacherPortal = new TeacherPortal();
                 teacherPortal.Show();
-
+                this.Hide();
 
             }
             else
