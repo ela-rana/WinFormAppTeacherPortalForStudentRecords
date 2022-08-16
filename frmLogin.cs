@@ -35,11 +35,10 @@ namespace WinFormAppTeacherPortalForStudentRecords
         }
         public bool ValidLogin()
         {
-            return true;
-            //if (txtUserName.Text == "Teacher" && txtPassword.Text == "Admin")
-            //    return true;
-            //else
-            //    return false;
+            if (txtUserName.Text == "Teacher" && txtPassword.Text == "Admin")
+                return true;
+            else
+                return false;
         }
 
         private void txtUserName_TextChanged(object sender, EventArgs e)
