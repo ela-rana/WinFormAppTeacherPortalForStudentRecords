@@ -138,7 +138,7 @@ namespace WinFormAppTeacherPortalForStudentRecords
         }
         private void btnDeleteStudent_Click(object sender, EventArgs e)
         {
-            if (dtgrdDisplayStudent.SelectedRows == null)
+            if (dtgrdDisplayStudent.RowCount == 0)
             {
                 MessageBox.Show("There is nothing available or selected to delete");
             }
