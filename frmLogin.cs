@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WinFormAppTeacherPortalForStudentRecords
 {
-    public partial class frmLogin : Form
+    public partial class FrmLogin : Form
     {
-        public frmLogin()
+        public FrmLogin()
         {
             InitializeComponent();
         }
@@ -35,10 +35,11 @@ namespace WinFormAppTeacherPortalForStudentRecords
         }
         public bool ValidLogin()
         {
-            if (txtUserName.Text == "Teacher" && txtPassword.Text == "Admin")
-                return true;
-            else
-                return false;
+            return true;
+            //if (txtUserName.Text == "Teacher" && txtPassword.Text == "Admin")
+            //    return true;
+            //else
+            //    return false;
         }
 
         private void txtUserName_TextChanged(object sender, EventArgs e)
